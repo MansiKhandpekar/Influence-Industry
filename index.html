@@ -1,32 +1,144 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Influence Industry</title>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Influence Industry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    
-    <body>
-        
-        <div id="container" class="scroller">
-            <div class="box">
-                <div>
-                    <span class = "block"></span>
-                    <h1> Wordplay</h1>
-                    <h3> by the Influence Industry</h3>
-                </div>
-                <div>
-                    <h5> Project by Anushka Harne & Mansi Khandpekar</h5>
-                </div>
+  <body>
+    <div id="container">
+      <div id="nav" class="navbar">
+        <div id="navbar-item-1" class="navbar-item"><p>Homepage</p></div>
+        <div id="navbar-item-2" class="navbar-item"><p>Introduction</p></div>
+        <div id="navbar-item-3" class="navbar-item"></div>
+        <div id="navbar-item-4" class="navbar-item"><p>Wordcloud</p></div>
+        <div id="navbar-item-5" class="navbar-item"></div>
+        <div id="navbar-item-6" class="navbar-item"><p>Companies</p></div>
+        <div id="navbar-item-7" class="navbar-item"><p>Network diagram</p></div>
+        <div id="navbar-item-8" class="navbar-item"><p>Bubble diagram</p></div>
+      </div>
+
+      <div>
+        <div id="slide1" class="slide">
+            <div>
+              <h1> Wordplay</h1>
+              <h3> by the Influence Industry</h3>
+              <p class="intro"> Click anywhere to begin</p>
             </div>
+            <div>
+                <h5> Project by Anushka Harne & Mansi Khandpekar</h5>
+            </div>
+          <!-- <div class="child"></div> -->
         </div>
-        <div id= "screenshots" class="scroller">
+
+        <div id="slide2" class="slide">
+          <div>
+            <video autoplay muted>
+                <source src="./images/Companies_AdobeCreativeCloudExpress.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
-        <iframe src='https://flo.uri.sh/visualisation/9387778/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='yes' style='width:100%;height:1600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9387778/?utm_source=embed&utm_campaign=visualisation/9387778' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
-        <!-- <div class="flourish-embed flourish-network" data-src="visualisation/9387778"><script src="https://public.flourish.studio/resources/embed.js"></script></div> -->
-        <!-- <div id ="wordcloud" class="scroller">
-            <div class="flourish-embed flourish-network" data-src="visualisation/9396584"><script src="https://public.flourish.studio/resources/embed.js"></script></div> -->
-    </body>
+
+        <div id="slide3" class="slide">
+          <p> 
+              These are the words campaign service providers use to
+              market their services to political parties...
+          </p>
+        </div>
+
+        <div id="slide4" class="slide">
+          <div>
+            <video autoplay muted>
+            <source src="./images/wordcloud.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <div id="slide5" class="slide">
+          <div>
+            <p> 
+              We made a word cloud of all the words that might “influence”
+              a political leader into using their services
+            </p>
+          </div>
+        </div>
+
+        <!-- add company logos here and link it to their sites -->
+        <div id="slide6" class="slide">
+          <div class="logo">
+            <p class="one"> These are the 21 companies that we scraped the data from</p>
+            <div>
+              <a href="https://secure.actblue.com/" target="blank"><img src ="./images/Logos/Actblue.png" alt="ActBlue Logo" class="grow"></a>
+
+              <a href="https://www.aristotle.com/about/" target="blank"><img src ="./images/Logos/Aristotle.png" alt="Aristotle Logo" class="grow"></a>
+
+              <a href="https://www.woolfstrategy.com/" target="blank"><img src ="./images/Logos/asana.png" alt="Asana Logo" class="grow"></a>
+
+              <a href="https://www.bluestate.co/" target="blank"><img src ="./images/Logos/bluestate.png" alt="Blue State Logo" class="grow"></a>
+
+              <a href="https://www.bpimedia.com/" target="blank"><img src ="./images/Logos/BPI media.png" alt="BPI media interactive Logo" class="grow"></a>
+
+              <a href="https://www.care2.com/" target="blank"><img src ="./images/Logos/care2.png" alt="Care2 Logo" class="grow"></a>
+
+              <a href="https://www.cision.com/" target="blank"><img src ="./images/Logos/Cision.png" alt="Cision Logo" class="grow"></a>
+            </div>
+            <div>
+              <a href="https://www.claritycampaigns.com/" target="blank"><img src ="./images/Logos/clarity campaign.png" alt="Clarity Campaign Logo" class="grow"></a>
+
+              <a href="https://www.data-axle.com/" target="blank"><img src ="./images/Logos/Data axle.png" alt="Infogroup Logo" class="grow"></a>
+
+              <a href="https://www.dmipartners.com/" target="blank"><img src ="./images/Logos/dmi partners.png" alt="DMI Partner Logo" class="grow"></a>
+
+              <a href="https://www.dspolitical.com/" target="blank"><img src ="./images/Logos/dspolitical.png" alt="DSPolitical Logo" class="grow"></a>
+
+              <a href="https://eltoro.com/" target="blank"><img src ="./images/Logos/Eltoro.png" alt="El Toro Logo" class="grow"></a>
+
+              <a href="https://www.everyaction.com/" target="blank"><img src ="./images/Logos/Everyaction.png" alt="Everyaction Logo" class="grow"></a>
+
+              <a href="https://www.gpsimpact.com/" target="blank"><img src ="./images/Logos/GPS impact.png" alt="GPS Impact Logo" class="grow"></a>
+            </div>
+            <div>
+              <a href="https://www.meltwater.com/en" target="blank"><img src ="./images/Logos/meltwater.png" alt="Meltwater Logo" class="grow"></a>
+
+              <a href="https://mothershipstrategies.com/" target="blank"><img src ="./images/Logos/mothership.png" alt="Mothership Logo" class="grow"></a>
+
+              <a href="https://nationbuilder.com/" target="blank"><img src ="./images/Logos/Nation builder.png" alt="Nation Builder Logo" class="grow"></a>
+
+              <a href="https://www.ngpvan.com/" target="blank"><img src ="./images/Logos/ngpvan.png" alt="NGP Van Logo" class="grow"></a>
+
+              <a href="https://www.risingtideinteractive.com/" target="blank"><img src ="./images/Logos/Rising tide.png" alt="Rising Tide Interactive Logo" class="grow"></a>
+
+              <a href="https://www.solidaritystrategies.com/" target="blank"><img src ="./images/Logos/solidarity startegies.png" alt="Solidarity Strategies Logo" class="grow"></a>
+
+              <a href="https://www.trilogyinteractive.com/" target="blank"><img src ="./images/Logos/Trilogy.png" alt="Trilogy Logo" class="grow"></a>
+            </div>
+
+          </div>
+        </div>
+        
+        <div id="slide7" class="slide">
+          <div id="network">
+            <iframe src='https://flo.uri.sh/visualisation/9387778/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='yes' style='width:100%;height:1100px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9387778/?utm_source=embed&utm_campaign=visualisation/9387778' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+          </div>
+        </div>
+
+        <div id="slide8" class="slide">
+          <div id="bubble">
+            <iframe src='https://flo.uri.sh/visualisation/9547871/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='yes' style='width:100%;height:100vh;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/9547871/?utm_source=embed&utm_campaign=visualisation/9547871' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
